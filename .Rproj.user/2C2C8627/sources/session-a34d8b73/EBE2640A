@@ -1,14 +1,14 @@
 {
-    "id": "330F2C76",
-    "path": "C:/Users/HUAWE/Desktop/Github/bedirhanavdanci.github.io/index.qmd",
-    "project_path": "index.qmd",
+    "id": "EBE2640A",
+    "path": "C:/Users/HUAWE/Desktop/Github/bedirhanavdanci.github.io/posts/2024-06-29-first/index.qmd",
+    "project_path": "posts/2024-06-29-first/index.qmd",
     "type": "quarto_markdown",
-    "hash": "3420462440",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1719674517245.0,
+    "created": 1719677740240.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 6,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1719678874,
+    "lastKnownWriteTime": 1719678465,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1719678874851,
+    "last_content_update": 1719678465791,
     "read_only": false,
     "read_only_alternatives": []
 }
