@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bedirhan Avdancı"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - posts.qmd
+      - about.qmd
+      - text: "CV"
+        menu:
+          - text: "Türkçe - Not yet accessible!"
+            url: "NotYetAccessible!"
+          - text: "English"
+            url: "CV_BedirhanAvdancı.pdf"
+    right:
+      - icon: twitter
+        href: https://twitter.com/bedirhanavd
+      - text: "Contact"
+        menu:
+          - text: "bedirhan.avd@gmail.com"
+            href: "mailto:bedirhan.avd@gmail.com"
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

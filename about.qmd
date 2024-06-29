@@ -4,6 +4,4 @@ title: "About"
 
 It's being updated!
 
-```{r}
-1 + 1
-```
+
