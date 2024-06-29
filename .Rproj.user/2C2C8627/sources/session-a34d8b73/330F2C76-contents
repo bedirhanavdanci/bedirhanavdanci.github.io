@@ -1,0 +1,14 @@
+---
+title: "Bedirhan Avdancı"
+image: bedirhan.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+---
+
+I'm Bedirhan Avdancı who is 4th year Bachelor's degree student at Biology Department and interested in soil ecology.   
+
+```{r}
+1 + 1
+```
