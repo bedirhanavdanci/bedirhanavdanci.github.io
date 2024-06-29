@@ -1,8 +1,8 @@
 {
-  "hash": "c6b9bc980b8c7618bdfb895776f18449",
+  "hash": "192addbf1006a5f28ada5eb0e74698e3",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Bedirhan Avdancı\"\nimage: bedirhan.jpg\nabout:\n  id: hero-heading\n  template: trestles\n  image-shape: round\n---\n\n\nI'm Bedirhan Avdancı who is 4th year Bachelor's degree student at Biology Department and interested in soil ecology.   \n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Bedirhan Avdancı\"\nimage: bedirhan.jpg\nabout:\n  id: hero-heading\n  template: trestles\n  image-shape: round\n---\n\n\nHello! I'm Bedirhan Avdancı who is 4th year Bachelor's degree student in Biology Department and interested in Soil Ecology field.   \n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

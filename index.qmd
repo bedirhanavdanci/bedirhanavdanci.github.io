@@ -7,7 +7,7 @@ about:
   image-shape: round
 ---
 
-I'm Bedirhan Avdancı who is 4th year Bachelor's degree student at Biology Department and interested in soil ecology.   
+Hello! I'm Bedirhan Avdancı who is 4th year Bachelor's degree student in Biology Department and interested in Soil Ecology field.   
 
 ```{r}
 1 + 1
