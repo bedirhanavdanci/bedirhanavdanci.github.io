@@ -10,35 +10,19 @@ draft: false
 format:
   html:
     embed-resources: true
-    
-twitter:
-  - card: "summary_large_image"
-  - site: "https://bedirhanavdanci.github.io/posts/DianaWall/"
-  - creator: "Bedirhan Avdancı"
-  - image: "https://bedirhanavdanci.github.io/posts/DianaWall/wall.jpg"
 ---
 
 <head>
-<!-- Primary Meta Tags -->
-<title>Bedirhan Avdancı - Diana Wall</title>
-<meta name="title" content="Bedirhan Avdancı - Diana Wall" />
-<meta name="description" content="Toprak Ekolojisinin öncülerinden olan Prof. Dr. Diana Wall’un aramızdan ayrılışının anısına." />
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://bedirhanavdanci.github.io/posts/DianaWall/" />
-<meta property="og:title" content="Bedirhan Avdancı - Diana Wall" />
-<meta property="og:description" content="Toprak Ekolojisinin öncülerinden olan Prof. Dr. Diana Wall’un aramızdan ayrılışının anısına." />
+<meta property="og:title" content="Diana Wall" />
+<meta property="og:description" content="Toprak Ekolojisinin öncülerinden olan Prof. Dr. Diana Wall'un aramızdan ayrılışının anısına." />
 <meta property="og:image" content="https://bedirhanavdanci.github.io/posts/DianaWall/wall.jpg" />
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://bedirhanavdanci.github.io/posts/DianaWall/" />
-<meta property="twitter:title" content="Bedirhan Avdancı - Diana Wall" />
-<meta property="twitter:description" content="Toprak Ekolojisinin öncülerinden olan Prof. Dr. Diana Wall’un aramızdan ayrılışının anısına." />
-<meta property="twitter:image" content="https://bedirhanavdanci.github.io/posts/DianaWall/wall.jpg" />
-
-<!-- Meta Tags Generated with https://metatags.io -->
+<meta property="og:url" content="https://bedirhanavdanci.github.io/posts/DianaWall/" />
+<meta property="og:type" content="article" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Diana Wall" />
+<meta name="twitter:description" content="Toprak Ekolojisinin öncülerinden olan Prof. Dr. Diana Wall'un aramızdan ayrılışının anısına." />
+<meta name="twitter:image" content="https://bedirhanavdanci.github.io/posts/DianaWall/wall.jpg" />
+<meta name="twitter:url" content="https://bedirhanavdanci.github.io/posts/DianaWall/" />
 </head>
 
 ## Prof. Dr. Diana Wall: Toprak Ekolojisinin Öncüsü
