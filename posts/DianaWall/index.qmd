@@ -10,6 +10,12 @@ draft: false
 format:
   html:
     embed-resources: true
+    
+twitter:
+  - card: "summary_large_image"
+  - site: "https://bedirhanavdanci.github.io/posts/DianaWall/"
+  - creator: "Bedirhan Avdancı"
+  - image: "https://bedirhanavdanci.github.io/posts/DianaWall/wall.jpg"
 ---
 
 <head>
