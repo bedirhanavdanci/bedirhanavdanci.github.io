@@ -7,6 +7,9 @@ date: 2024-06-30
 categories: [Scientists, Türkçe]
 image: wall.jpg
 draft: false
+format:
+  html:
+    embed-resources: true
 ---
 ## Prof. Dr. Diana Wall: Toprak Ekolojisinin Öncüsü
 
