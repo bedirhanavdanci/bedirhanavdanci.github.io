@@ -9,7 +9,6 @@ website:
       - href: index.qmd
         text: Home
       - posts.qmd
-      - about.qmd
       - siir.qmd
       - text: "CV"
         menu:
