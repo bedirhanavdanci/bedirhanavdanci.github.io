@@ -3,7 +3,7 @@
     "path": "C:/Users/HUAWE/Desktop/Github/bedirhanavdanci.github.io/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "1437092357",
+    "hash": "1494379348",
     "contents": "",
     "dirty": false,
     "created": 1719692117996.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "10,17",
+        "cursorPosition": "11,13",
         "scrollLine": "3"
     },
     "folds": "",
-    "lastKnownWriteTime": 1733153708,
+    "lastKnownWriteTime": 1733153888,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1733153708172,
+    "last_content_update": 1733153888669,
     "read_only": false,
     "read_only_alternatives": []
 }
