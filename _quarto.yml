@@ -10,12 +10,13 @@ website:
         text: Home
       - posts.qmd
       - about.qmd
+      - siir.qmd
       - text: "CV"
         menu:
           - text: "Türkçe - Not yet accessible!"
             url: "NotYetAccessible!"
           - text: "English"
-            url: "CV_BedirhanAvdanci.pdf"
+            url: "NotYetAccesible"
     right:
       - icon: twitter
         href: https://twitter.com/bedirhanavd
