@@ -1,0 +1,16 @@
+---
+title: "Unutulmuş bir tanrı: Benim sadık yârim kara topraktır"
+description: "Bu yazı, toprağın mitolojik, edebi ve dilbilimsel taraflarını bilimsel perspektifle harmanlayarak ele almaktadır."
+author:
+  - name: Bedirhan Avdancı
+date: 2025-04-20
+categories: [Toprak, Türkçe]
+image: toprak_mitoloji.png
+draft: false
+format:
+  html:
+    embed-resources: true
+---
+
+![MitolojikToprak](toprak_mitoloji.png)
+
