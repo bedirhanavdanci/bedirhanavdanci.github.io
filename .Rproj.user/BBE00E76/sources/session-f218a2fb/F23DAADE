@@ -1,12 +1,12 @@
 {
-    "id": "58F0F9E0",
-    "path": "C:/Users/avdan/Desktop/BedirhanAvdancı/bedirhanavdanci.github.io/posts.qmd",
-    "project_path": "posts.qmd",
-    "type": "quarto_markdown",
-    "hash": "4096330615",
+    "id": "F23DAADE",
+    "path": "C:/Users/avdan/Desktop/BedirhanAvdancı/bedirhanavdanci.github.io/_quarto.yml",
+    "project_path": "_quarto.yml",
+    "type": "yaml",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1745160244332.0,
+    "created": 1745165787340.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
@@ -14,11 +14,11 @@
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1745160169,
+    "lastKnownWriteTime": 1745165710,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1745160169,
+    "last_content_update": 1745165710,
     "read_only": false,
     "read_only_alternatives": []
 }
