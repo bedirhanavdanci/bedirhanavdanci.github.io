@@ -3,7 +3,7 @@
     "path": "C:/Users/avdan/Desktop/BedirhanAvdancı/bedirhanavdanci.github.io/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "3919906218",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1745165787340.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "14,48",
+        "cursorPosition": "6,9",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1747808534,
+    "lastKnownWriteTime": 1764629520,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1747808534167,
+    "last_content_update": 1764629520299,
     "read_only": false,
     "read_only_alternatives": []
 }

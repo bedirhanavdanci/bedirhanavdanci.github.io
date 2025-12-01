@@ -7,4 +7,4 @@ about:
   image-shape: round
 ---
 
-Hello! I’m Bedirhan Avdancı, a fourth-year Bachelor’s degree student in the Biology Department, and I am interested in the field of Soil Ecology.  
+Hello! I’m Bedirhan Avdancı, a biology graduate (B.Sc.) with a dedicated interest in Soil Ecology.
