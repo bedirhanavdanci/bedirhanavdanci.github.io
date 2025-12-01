@@ -1,6 +1,6 @@
 ---
 title: "Bedirhan Avdancı"
-image: bedirhan1.jpg
+image: bedirhan.jpg
 about:
   id: hero-heading
   template: trestles
