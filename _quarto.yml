@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - posts.qmd
       - text: "CV"
         menu:
           - text: "English"
