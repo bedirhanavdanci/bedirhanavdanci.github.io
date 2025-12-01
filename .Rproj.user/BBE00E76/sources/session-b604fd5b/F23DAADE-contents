@@ -10,6 +10,8 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: posts.qmd
+        text: Blog
       - text: "CV"
         menu:
           - text: "English"
