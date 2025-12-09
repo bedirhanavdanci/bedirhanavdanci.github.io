@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bedirhan Avdancı"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: posts.qmd
+        text: Blog
+      - text: "CV"
+        menu:
+          - text: "English"
+            url: CV_BedirhanAvdancı.pdf
+    right:
+      - icon: twitter
+        href: https://twitter.com/bedirhan_avd
+      - text: "Contact"
+        menu:
+          - text: "bedirhan.avd@gmail.com"
+            href: "mailto:bedirhan.avd@gmail.com"
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
