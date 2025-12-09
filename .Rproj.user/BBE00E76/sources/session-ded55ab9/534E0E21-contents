@@ -18,7 +18,7 @@ website:
             url: CV_BedirhanAvdanci.pdf
     right:
       - icon: twitter
-        href: https://twitter.com/bedirhansoil
+        href: https://twitter.com/bedirhan_avd
       - text: "Contact"
         menu:
           - text: "bedirhan.avd@gmail.com"
