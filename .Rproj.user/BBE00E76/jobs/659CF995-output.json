@@ -7,3 +7,5 @@
 [1,"Watching files for changes\nBrowse at http://localhost:5460/posts.html\n"]
 [1,"GET: /posts.html\n"]
 [1,"GET: /\n"]
+[1,"pandoc \n  to: html\n  output-file: posts.html\n  standalone: true\n  title-prefix: Bedirhan Avdancı\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  css:\n    - styles.css\n  toc: true\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme: cosmo\n  title: Blog\n  listing:\n    contents: posts\n    type: grid\n    sort: date desc\n    categories: true\n  \n"]
+[1,"Output created: docs\\posts.html\n\nWatching files for changes\n"]
