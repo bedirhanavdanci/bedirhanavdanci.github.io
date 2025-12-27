@@ -15,7 +15,7 @@ website:
       - text: "CV"
         menu:
           - text: "English"
-            url: CV_BedirhanAvdancı.pdf
+            url: CV_BedirhanAvdanci.pdf
     right:
       - icon: twitter
         href: https://twitter.com/bedirhan_avd
