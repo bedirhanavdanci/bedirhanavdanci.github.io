@@ -1,7 +1,7 @@
 ---
 title: "Çobanlık, Yağ tenekesi, Akademi ve Başvurular"
 description: "Yeni yılla birlikte karışık bir hasbihâl!"
-image: "coban.png"
+image: "coban.jpg"
 author:
   - name: Bedirhan Avdancı
 date: 2026-01-05
@@ -11,7 +11,7 @@ draft: false
 ---
 ## Çobanlık, Yağ tenekesi, Akademi ve Başvurular
 
-![](coban.png){width=80%}
+![](coban.jpg){width=80%}
 
 Bugün 5 Ocak 2026 ve bu tarihi önemli kılan birkaç neden var. Bunlardan biri ise, 2026 yılının ilk pazartesisi olması. Bu nedenle çalışmaya başlamak ve çalışmama bahanelerinden kurtulmak için harika bir gün olduğunu düşünüyorum. Yazdığım bloglara baktığımda, 2024 ve 2025 yıllarında birer adet yayımlamış olduğumu gördüm. 2026 yılı için kendime koyduğum hedeflerden biri ise daha fazla blog yazısı paylaşmak. Halihazırda sosyal medya hesaplarımı da kapatmışken, buna daha fazla zaman ayırabileceğim gibi gözüküyor. 1 dakikalık anlamsız kısa videolar arasında hipnoz olup vakit kaybetmektense, böylesi uğraşların çok daha kaliteli vakit geçirmeme olanak sağlayabileceğini düşünüyorum. Yaptıklarımı belirli aralıklarla özet hâlinde raporlamanın büyük resmi görmeme yardımcı olacağına ve beni motive edeceğine inancım tam.
 
