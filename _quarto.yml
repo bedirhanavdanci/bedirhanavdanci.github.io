@@ -4,6 +4,12 @@ project:
 
 website:
   title: "Bedirhan Avdancı"
+  
+  site-url: "https://bedirhanavdanci.github.io"
+  open-graph: true
+  twitter-card:
+    card-style: summary_large_image
+    
   navbar:
     left:
       - href: index.qmd
