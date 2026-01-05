@@ -5,5 +5,5 @@ listing:
   sort: "date desc"
   type: grid
   categories: true
-  fields: [image, date, title, reading-time, description]
+  fields: [image, date, title, reading-time, description, categories]
 ---
