@@ -4,12 +4,11 @@ project:
 
 website:
   title: "Bedirhan Avdancı"
-  
-  site-url: "https://bedirhanavdanci.github.io"
+  site-url: https://bedirhanavdanci.github.io  # Mutlaka olmalı
   open-graph: true
   twitter-card:
+    site: "@bedirhan_avd" # Varsa X kullanıcı adın
     card-style: summary_large_image
-    
   navbar:
     left:
       - href: index.qmd
