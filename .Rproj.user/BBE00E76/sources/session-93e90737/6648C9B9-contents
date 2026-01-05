@@ -1,7 +1,12 @@
 ---
 title: "Çobanlık, Yağ tenekesi, Akademi ve Başvurular"
 description: "Yeni yılla birlikte karışık bir hasbihâl!"
-image: coban.png
+image: "https://bedirhanavdanci.github.io/posts/CobanlikYagTenekesiAkademiVeBasvurular/coban.png"
+open-graph:
+  image: "https://bedirhanavdanci.github.io/posts/CobanlikYagTenekesiAkademiVeBasvurular/coban.png"
+  title: "Çobanlık, Yağ tenekesi, Akademi ve Başvurular"
+  description: "Yeni yılla birlikte karışık bir hasbihâl!"
+  
 author:
   - name: Bedirhan Avdancı
 date: 2026-01-05
