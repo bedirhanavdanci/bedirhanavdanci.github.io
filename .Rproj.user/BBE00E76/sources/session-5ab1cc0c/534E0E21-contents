@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bedirhan Avdancı"
+  site-url: https://bedirhanavdanci.github.io
+  open-graph: true
+
+  twitter-card:
+    site: "@bedirhan_avd"
+    card-style: summary_large_image
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: posts.qmd
+        text: Blog
+      - text: CV
+        menu:
+          - text: English
+            href: CV_BedirhanAvdancı.pdf
+
+    right:
+      - text: |
+          <svg xmlns="http://www.w3.org/2000/svg"
+               viewBox="0 0 24 24"
+               width="18"
+               height="18"
+               style="vertical-align: middle;">
+            <path fill="currentColor"
+                  d="M18.244 2H21.552L14.323 10.471L22.885 22H16.197L10.932 15.007L4.962 22H1.65L9.337 13.021L1.115 2H7.978L12.74 8.444L18.244 2Z"/>
+          </svg>
+        href: https://x.com/bedirhan_avd
+
+      - text: Contact
+        menu:
+          - text: bedirhan.avd@gmail.com
+            href: mailto:bedirhan.avd@gmail.com
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
