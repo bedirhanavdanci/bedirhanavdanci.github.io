@@ -1,0 +1,11 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false # Minimalizm için kategorileri kapatabilirsin
+  image-height: "150px"
+  fields: [image, date, title, description]
+page-layout: article # Tam orta genişlik
+---

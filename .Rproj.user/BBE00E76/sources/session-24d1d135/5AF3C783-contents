@@ -1,0 +1,17 @@
+---
+title: "Bedirhan Avdancı"
+image: bedirhan.jpg # Buraya kendi fotoğrafını ekle
+about:
+  template: trestles # Modern, iki sütunlu yapı
+  links:
+    - icon: twitter-x
+      text: Twitter
+      href: https://x.com/bedirhan_avd
+    - icon: envelope
+      text: Email
+      href: mailto:bedirhan.avd@gmail.com
+---
+
+
+Hello! I’m Bedirhan Avdancı, a biology graduate (B.Sc.) with a strong interest in soil ecology!
+

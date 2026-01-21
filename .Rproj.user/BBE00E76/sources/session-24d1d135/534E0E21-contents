@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  navbar:
+    search: false
+    background: transparent
+    collapse: false
+
+    left:
+      - text: "Bedirhan Avdancı"
+        href: index.qmd
+
+    right:
+      - text: "Blog"
+        href: posts.qmd
+      - text: "CV"
+        href: CV_BedirhanAvdancı.pdf
+      - text: "Contact"
+        href: mailto:bedirhan.avd@gmail.com
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: false
+    mainfont: "Charter"
+    fontsize: 1rem

@@ -1,0 +1,323 @@
+/*-- scss:defaults --*/
+
+$site-width: 880px;
+$side-padding: 24px;
+
+$paper-bg: #fdfaf3;
+$text-main: #6b4f2a;
+$accent-brown: #6b4f2a;
+
+$font-main: "Charter", Georgia, serif;
+
+
+/*-- scss:rules --*/
+
+/* =========================================================
+   X LINK NEXT TO INTRO HEADING
+   ========================================================= */
+
+/* =========================================================
+   X LINK NEXT TO INTRO HEADING (BROWN & LARGER)
+   ========================================================= */
+
+.x-link {
+  margin-left: 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  border: none;
+}
+
+.x-link svg {
+  width: 16px;          /* slightly larger */
+  height: 16px;
+  fill: $accent-brown;  /* default brown */
+  transition: opacity 0.2s ease;
+}
+
+.x-link:hover svg {
+  opacity: 0.75;
+}
+
+.x-link {
+  margin-left: 0.20rem;
+}
+
+
+
+
+/* =========================================================
+   BLOG PAGE — MODERN ACADEMIC LIST
+   ========================================================= */
+
+/* Blog title */
+.quarto-title-block h1 {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+/* Post list container */
+.quarto-listing {
+  margin-top: 2.5rem;
+}
+
+/* Individual post entry */
+.quarto-listing .quarto-listing-item {
+  padding: 1.6rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Remove last divider */
+.quarto-listing .quarto-listing-item:last-child {
+  border-bottom: none;
+}
+
+/* Post title */
+.quarto-listing .listing-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+/* Title links */
+.quarto-listing .listing-title a {
+  color: $text-main;
+  border-bottom: none;
+}
+
+/* Subtle hover (very restrained) */
+.quarto-listing .listing-title a:hover {
+  color: $accent-brown;
+}
+
+/* Post meta (date) */
+.quarto-listing .listing-date {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(44, 44, 44, 0.55);
+  margin-bottom: 0.6rem;
+}
+
+/* Post description / excerpt */
+.quarto-listing .listing-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(44, 44, 44, 0.9);
+  max-width: 36rem;
+}
+
+/* Remove bullets/icons if any */
+.quarto-listing .listing-icon {
+  display: none;
+}
+
+.quarto-listing {
+  max-width: 40rem;
+}
+
+.quarto-listing .listing-title {
+  font-style: italic;
+}
+
+
+/* ================= INTRO HEADING ================= */
+
+main h2 {
+  font-size: 1.05rem;   /* smaller, calmer */
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Remove underline under the heading */
+main h2::after,
+main h2 {
+  border-bottom: none !important;
+}
+
+main h2 {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* =========================================================
+   GLOBAL RESET
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $paper-bg;
+  color: $text-main;
+  font-family: $font-main;
+}
+
+
+/* =========================================================
+   CONTENT WIDTH (QUARTO SAFE)
+   ========================================================= */
+
+.page-columns {
+  max-width: $site-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $side-padding;
+  padding-right: $side-padding;
+}
+
+main.content {
+  padding: 0;
+}
+
+
+/* ================= NAVBAR — FORCE TRUE CENTER ================= */
+
+/* Kill Quarto’s left/right slots */
+.navbar .navbar-brand,
+.navbar .navbar-nav {
+  float: none !important;
+}
+
+/* Rebuild navbar as centered inline header */
+.navbar .container-fluid {
+  max-width: $site-width;
+  margin: 0 auto;
+  padding-left: $side-padding;
+  padding-right: $side-padding;
+
+  display: block !important;
+  text-align: center;
+}
+
+/* Brand */
+.navbar-brand {
+  display: inline-block;
+  font-family: $font-main;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+/* Divider */
+.navbar-brand::after {
+  content: " | ";
+  margin: 0 1.2rem;
+  color: rgba(107, 79, 42, 0.45);
+}
+
+/* Nav */
+.navbar-nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav items inline */
+.navbar-nav .nav-item {
+  display: inline-block;
+  margin: 0 0.7rem;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  padding: 0 !important;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $accent-brown !important;
+  border: none;
+}
+
+/* Remove all toggles/search */
+.navbar-toggler,
+.navbar-search,
+.aa-DetachedSearchButton {
+  display: none !important;
+}
+
+
+/* =========================================================
+   INTRO BLOCK
+   ========================================================= */
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.4rem;
+}
+
+.intro img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+main h2 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+
+/* =========================================================
+   TEXT
+   ========================================================= */
+
+main p {
+  font-size: 0.93rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+  color: $accent-brown;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(107, 79, 42, 0.3);
+}
+
+.navbar a {
+  border-bottom: none;
+}
+
+
+/* =========================================================
+   HIDE UNUSED ELEMENTS
+   ========================================================= */
+
+a.anchorjs-link,
+header#title-block-header {
+  display: none !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  .navbar .container-fluid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+
+  .navbar-nav::before {
+    display: none;
+  }
+}
