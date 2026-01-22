@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: docs
-
+  
+title: "Bedirhan Avdancı"
 website:
   navbar:
     search: false
