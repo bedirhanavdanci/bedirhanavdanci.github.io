@@ -1,9 +1,0 @@
----
-title: "About"
-
----
-Hello! My name is Bedirhan Avdancı, and I am a biology graduate (B.Sc.) with a strong focus on computational ecology. If I had not become a scientist, I would still be a shepherd in Karabük, in the landscapes shown in the image below.
-
-You can check my [CV](CV_BedirhanAvdancı.pdf) for further details about my academic background and experience. However, if you still have any questions, you are more than welcome to reach out to me via the contact section.
-
-![](karabük.webp)
