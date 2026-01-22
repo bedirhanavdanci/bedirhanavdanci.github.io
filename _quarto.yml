@@ -16,7 +16,7 @@ website:
       - text: "Blog"
         href: posts.qmd
       - text: "CV"
-        href: CV_BedirhanAvdancı.pdf
+        href: CV_AvdancıBedirhan.pdf
       - text: "Contact"
         href: mailto:bedirhan.avd@gmail.com
 
