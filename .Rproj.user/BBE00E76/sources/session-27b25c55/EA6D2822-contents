@@ -33,10 +33,13 @@ I also value **scientific writing** as an essential practice for **clarifying id
 
 This website serves as a personal academic space where I share my **research interests, writing, and ongoing reflections**. For a more detailed overview of my academic background, please see my [**CV**](CV_AvdancıBedirhan.pdf), and if you have any questions or would like to discuss potential collaboration opportunities, you are more than welcome to reach out to me via [**email**](mailto:bedirhan.avd@gmail.com).
 
-<div class="icon-row">
-  <img src="virus.png" alt="Virus">
-  <img src="bacteria.png" alt="Bacteria">
-  <img src="fungi.png" alt="Fungi">
-  <img src="collembola.png" alt="Collembola">
-  <img src="nematode.png" alt="Nematode">
+<div class="icon-grid">
+<div class="icon-group">
+<img src="virus.png" alt="Virus">
+<img src="bacteria.png" alt="Bacteria">
+<img src="fungi.png" alt="Fungi">
+<img src="collembola.png" alt="Collembola">
+<img src="nematode.png" alt="Nematode">
+</div>
+<p class="icon-caption">-Don't hurt the Dirt!-</p>
 </div>

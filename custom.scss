@@ -79,7 +79,7 @@ $font-main: "Charter", Georgia, serif;
 .page-columns {
   /* Increase this value (e.g., from 15rem to 20rem) */
   /* Added !important to make sure Quarto doesn't override it */
-  padding-top: 5.5rem !important; 
+  padding-top: 3rem !important; 
   max-width: $site-width;
   margin-left: auto;
   margin-right: auto;
@@ -431,25 +431,29 @@ header#title-block-header {
    INDEX ICON ROW
    =============================== */
 
-.icon-row {
+.icon-grid {
+  display: grid;
+  justify-items: center; // Centers everything horizontally
+  gap: 0rem;            // Space between icons and text
+  margin: 0 auto 2rem auto;
   max-width: $site-width;
-  margin: 0 auto 2rem auto; /* alttan boşluk */
-  padding: 0 $side-padding;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.2rem;
+  .icon-group {
+    display: flex;      // This keeps the icons in one row
+    justify-content: center;
+    gap: 1.2rem;        // Space between icons
+
+    img {
+      height: 32px;
+      width: auto;
+      opacity: 0.85;
+      &:hover { opacity: 1; }
+    }
+  }
+
+  .icon-caption {
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+  }
 }
-
-.icon-row img {
-  height: 32px;
-  width: auto;
-  opacity: 0.85;
-}
-
-.icon-row img:hover {
-  opacity: 1;
-}
-
-
