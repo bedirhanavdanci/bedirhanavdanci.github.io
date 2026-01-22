@@ -5,3 +5,5 @@
 [1,"\n"]
 [1,"Watching files for changes\nBrowse at http://localhost:6753/\n"]
 [1,"GET: /\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: false\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  title: Bedirhan Avdancı\n  theme:\n    - cosmo\n    - custom.scss\n  mainfont: Charter\n  fontsize: 1rem\n  \n"]
+[1,"Output created: docs\\index.html\n\nWatching files for changes\n"]
