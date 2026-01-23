@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
   navbar:
     search: false
@@ -28,3 +28,6 @@ format:
     toc: false
     mainfont: "Charter"
     fontsize: 1rem
+    include-in-header:
+      - text: |
+          <meta name="google-site-verification" content="m0aiTxI7MKTvXcF60qY7x8Kb2k47ci3O4NkXy0V8b9o" />
