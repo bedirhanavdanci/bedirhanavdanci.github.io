@@ -33,8 +33,33 @@ format:
     include-in-header:
       - text: |
           <meta name="google-site-verification" content="m0aiTxI7MKTvXcF60qY7x8Kb2k47ci3O4NkXy0V8b9o" />
-          <meta name="description" content="Bedirhan Avdancı is a researcher focused on soil ecology, soil biodiversity, and microbial communities under global change." />
+          <meta name="description" content="Bedirhan Avdancı is a biologist focused on soil ecology, soil biodiversity, and microbial communities under global change." />
           <meta name="author" content="Bedirhan Avdancı" />
           <link rel="canonical" href="https://bedirhanavdanci.github.io/" />
 
-
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Bedirhan Avdancı",
+            "url": "https://bedirhanavdanci.github.io/",
+            "image": "https://bedirhanavdanci.github.io/bedirhan.jpg",
+            "jobTitle": "Biologist",
+            "description": "Biologist focused on soil ecology, soil biodiversity, and microbial communities under global change.",
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "Hacettepe University"
+            },
+            "knowsAbout": [
+              "Soil ecology",
+              "Soil biodiversity",
+              "Microbial ecology",
+              "Global change biology"
+            ],
+            "sameAs": [
+              "https://orcid.org/0009-0000-1079-3049",
+              "https://scholar.google.com/citations?user=jAF-BsgAAAAJ",
+              "https://x.com/bedirhan_avd"
+            ]
+          }
+          </script>
