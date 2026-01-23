@@ -1,5 +1,6 @@
 ---
-title: "Blog - Bedirhan Avdancı"
+title: ""
+page-title: false
 listing:
   type: default
   sort: date desc

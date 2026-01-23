@@ -3,7 +3,9 @@ project:
   output-dir: docs
 
 website:
+  title: "Bedirhan Avdancı | Soil Ecology"
   navbar:
+    title: false
     search: false
     background: transparent
     collapse: false
@@ -31,3 +33,5 @@ format:
     include-in-header:
       - text: |
           <meta name="google-site-verification" content="m0aiTxI7MKTvXcF60qY7x8Kb2k47ci3O4NkXy0V8b9o" />
+          <meta name="description" content="Bedirhan Avdancı is a researcher focused on soil ecology, soil biodiversity, and microbial communities under global change." />
+          <meta name="author" content="Bedirhan Avdancı" />
