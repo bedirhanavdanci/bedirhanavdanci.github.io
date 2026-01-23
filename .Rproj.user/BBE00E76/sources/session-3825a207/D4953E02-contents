@@ -1,6 +1,5 @@
 ---
-title: ""
-page-title: false
+title: "Blog"
 listing:
   type: default
   sort: date desc
