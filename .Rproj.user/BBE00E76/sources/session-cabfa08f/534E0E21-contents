@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "Bedirhan Avdancı | Soil Ecology"
+  title: "Bedirhan Avdancı"
+  site-url: "https://bedirhanavdanci.github.io"
   navbar:
     title: false
     search: false
