@@ -1,0 +1,5 @@
+[1,"==> quarto preview index.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: index.html\n  standalone: true\n  title-prefix: Bedirhan Avdancı | Soil Ecology\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: false\n  variables: {}\n  \nmetadata\n  pagetitle: Bedirhan Avdancı | Soil Ecology\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  theme:\n    - cosmo\n    - custom.scss\n  mainfont: Charter\n  fontsize: 1rem\n  title: ''\n  page-title: false\n  \n"]
+[1,"Output created: docs\\index.html\n\nPreparing to preview\n"]
+[1,"\nWatching files for changes\nBrowse at http://localhost:6564/\n"]
+[1,"GET: /\n"]
