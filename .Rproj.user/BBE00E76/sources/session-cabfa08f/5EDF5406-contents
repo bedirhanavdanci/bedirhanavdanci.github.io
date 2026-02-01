@@ -228,19 +228,19 @@ main h2 {
 
 /* ================= INTRO HEADING ================= */
 
-main h2 {
+main h1, main h2 {
   font-size: 1.05rem;   /* smaller, calmer */
   font-weight: 600;
   margin: 0;
 }
 
 /* Remove underline under the heading */
-main h2::after,
-main h2 {
+main h1, main h2::after,
+main h1, main h2 {
   border-bottom: none !important;
 }
 
-main h2 {
+main h1, main h2 {
   font-weight: 500;
   letter-spacing: 0.01em;
 }
