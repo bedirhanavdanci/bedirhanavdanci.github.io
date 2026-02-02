@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://bedirhanavdanci.github.io/posts.html</loc>
+    <lastmod>2026-02-01T19:01:41.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bedirhanavdanci.github.io/posts/DianaWall/index.html</loc>
+    <lastmod>2025-04-20T14:42:49.882Z</lastmod>
+  </url>
+  <url>
     <loc>https://bedirhanavdanci.github.io/index.html</loc>
-    <lastmod>2026-02-01T16:59:53.280Z</lastmod>
+    <lastmod>2026-02-01T19:01:39.832Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bedirhanavdanci.github.io/contact.html</loc>
+    <lastmod>2026-02-01T19:01:38.036Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bedirhanavdanci.github.io/posts/CobanlikYagTenekesiAkademiVeBasvurular/index.html</loc>
+    <lastmod>2026-01-21T18:24:57.519Z</lastmod>
+  </url>
+  <url>
+    <loc>https://bedirhanavdanci.github.io/posts/MitolojikToprak/index.html</loc>
+    <lastmod>2025-04-20T16:07:19.670Z</lastmod>
   </url>
 </urlset>

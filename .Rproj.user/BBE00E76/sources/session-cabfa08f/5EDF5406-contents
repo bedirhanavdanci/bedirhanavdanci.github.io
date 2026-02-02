@@ -24,6 +24,7 @@ $font-main: "Charter", Georgia, serif;
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+
 /* =========================================================
    NAVBAR HOVER UNDERLINE
    ========================================================= */
@@ -31,6 +32,10 @@ $font-main: "Charter", Georgia, serif;
 /* ===============================
    FIXED NAVBAR (REAL HEADER)
    =============================== */
+   
+:root {
+  --navbar-height: 6.5rem;
+}
 
 .navbar {
   position: fixed;
@@ -74,20 +79,6 @@ $font-main: "Charter", Georgia, serif;
 /* =========================================================
    NAVBAR → PAGE DIVIDER
    ========================================================= */
-
-
-.page-columns {
-  /* Increase this value (e.g., from 15rem to 20rem) */
-  /* Added !important to make sure Quarto doesn't override it */
-  padding-top: 3rem !important; 
-  max-width: $site-width;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $side-padding;
-  padding-right: $side-padding;
-}
-
-
 
 
 
@@ -145,7 +136,7 @@ $font-main: "Charter", Georgia, serif;
 }
 
 /* Ensure title doesn't have extra spacing */
-main h2 {
+main h1, main h2 {
   font-size: 1.25rem;
   margin: 0 !important;
   border-bottom: none !important;
@@ -228,6 +219,10 @@ main h2 {
 
 /* ================= INTRO HEADING ================= */
 
+/* =========================================================
+   H1 GÖRÜNMEZLİK SORUNU İÇİN KESİN ÇÖZÜM
+   ========================================================= */
+
 main h1, main h2 {
   font-size: 1.05rem;   /* smaller, calmer */
   font-weight: 600;
@@ -265,13 +260,11 @@ body {
    CONTENT WIDTH (QUARTO SAFE)
    ========================================================= */
 
-.page-columns {
-  max-width: $site-width;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $side-padding;
-  padding-right: $side-padding;
-}
+/* =========================================================
+   SAYFA BOŞLUKLARI (GENEL VE ÖZEL AYARLAR)
+   ========================================================= */
+
+
 
 main.content {
   padding: 0;
@@ -365,7 +358,7 @@ main.content {
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-main h2 {
+main h1, main h2 {
   font-size: 1.25rem;
   margin: 0;
 }
@@ -461,4 +454,13 @@ header#title-block-header {
 .visually-hidden {
   position: absolute;
   left: -9999px;
+}
+
+.page-columns {
+  padding-top: var(--navbar-height) !important;
+  max-width: $site-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $side-padding;
+  padding-right: $side-padding;
 }

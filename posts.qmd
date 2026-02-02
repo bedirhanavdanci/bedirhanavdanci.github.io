@@ -8,3 +8,7 @@ listing:
   fields: [image, date, title, description]
   contents: posts
 ---
+<div class="blog-page">
+
+
+</div>

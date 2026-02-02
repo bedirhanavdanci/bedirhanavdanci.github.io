@@ -21,7 +21,7 @@ website:
       - text: "CV"
         href: CV_AvdancıBedirhan.pdf
       - text: "Contact"
-        href: mailto:bedirhan.avd@gmail.com
+        href: contact.qmd  # BURASI DEĞİŞTİ (Artık sayfaya gidiyor)
 
 format:
   html:
@@ -59,7 +59,8 @@ format:
             "sameAs": [
               "https://orcid.org/0009-0000-1079-3049",
               "https://scholar.google.com/citations?user=jAF-BsgAAAAJ",
-              "https://x.com/bedirhan_avd"
+              "https://x.com/bedirhan_avd",
+              "https://www.linkedin.com/in/bedirhan-avdanc%C4%B1-5490903aa/"
             ]
           }
           </script>
