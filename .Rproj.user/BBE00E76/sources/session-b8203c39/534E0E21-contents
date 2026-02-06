@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bedirhan Avdancı"
+  site-url: "https://bedirhanavdanci.github.io"
+  navbar:
+    title: false
+    search: false
+    background: transparent
+    collapse: false
+
+    left:
+      - text: "Bedirhan Avdancı"
+        href: index.qmd
+
+    right:
+      - text: "Blog"
+        href: posts.qmd
+      - text: "CV"
+        href: CV_BedirhanAvdanci.pdf
+      - text: "Contact"
+        href: contact.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: false
+    mainfont: "Charter"
+    fontsize: 1rem
+    include-in-header:
+      - text: |
+          <meta name="google-site-verification" content="m0aiTxI7MKTvXcF60qY7x8Kb2k47ci3O4NkXy0V8b9o" />
+          <meta name="description" content="Bedirhan Avdancı is a biologist focused on microbial ecology, utilizing computational methods to investigate microbial communities and biodiversity." />
+          <meta name="author" content="Bedirhan Avdancı" />
+
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Bedirhan Avdancı",
+            "url": "https://bedirhanavdanci.github.io/",
+            "image": "https://bedirhanavdanci.github.io/bedirhan.jpg",
+            "jobTitle": "Biologist",
+            "description": "Biologist focused on microbial ecology, utilizing computational methods to investigate microbial communities and biodiversity.",
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "Hacettepe University"
+            },
+            "knowsAbout": [
+              "Microbial ecology",
+              "Computational biology",
+              "Bioinformatics",
+              "Community ecology",
+              "Soil biodiversity"
+            ],
+            "sameAs": [
+              "https://orcid.org/0009-0000-1079-3049",
+              "https://scholar.google.com/citations?user=jAF-BsgAAAAJ",
+              "https://x.com/bedirhan_avd",
+              "https://www.linkedin.com/in/bedirhan-avdanc%C4%B1-5490903aa/"
+            ]
+          }
+          </script>

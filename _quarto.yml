@@ -19,9 +19,9 @@ website:
       - text: "Blog"
         href: posts.qmd
       - text: "CV"
-        href: CV_AvdancıBedirhan.pdf
+        href: CV_BedirhanAvdanci.pdf
       - text: "Contact"
-        href: contact.qmd  # BURASI DEĞİŞTİ (Artık sayfaya gidiyor)
+        href: contact.qmd
 
 format:
   html:
@@ -34,7 +34,7 @@ format:
     include-in-header:
       - text: |
           <meta name="google-site-verification" content="m0aiTxI7MKTvXcF60qY7x8Kb2k47ci3O4NkXy0V8b9o" />
-          <meta name="description" content="Bedirhan Avdancı is a biologist focused on soil ecology, soil biodiversity, and microbial communities under global change." />
+          <meta name="description" content="Bedirhan Avdancı is a biologist focused on microbial ecology, utilizing computational methods to investigate microbial communities and biodiversity." />
           <meta name="author" content="Bedirhan Avdancı" />
 
           <script type="application/ld+json">
@@ -45,16 +45,17 @@ format:
             "url": "https://bedirhanavdanci.github.io/",
             "image": "https://bedirhanavdanci.github.io/bedirhan.jpg",
             "jobTitle": "Biologist",
-            "description": "Biologist focused on soil ecology, soil biodiversity, and microbial communities under global change.",
+            "description": "Biologist focused on microbial ecology, utilizing computational methods to investigate microbial communities and biodiversity.",
             "alumniOf": {
               "@type": "CollegeOrUniversity",
               "name": "Hacettepe University"
             },
             "knowsAbout": [
-              "Soil ecology",
-              "Soil biodiversity",
               "Microbial ecology",
-              "Global change biology"
+              "Computational biology",
+              "Bioinformatics",
+              "Community ecology",
+              "Soil biodiversity"
             ],
             "sameAs": [
               "https://orcid.org/0009-0000-1079-3049",
