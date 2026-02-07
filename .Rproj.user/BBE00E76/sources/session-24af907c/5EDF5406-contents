@@ -1,0 +1,485 @@
+/*-- scss:defaults --*/
+
+$site-width: 880px;
+$side-padding: 24px;
+
+/* COLOR PALETTE: Marine Blue & Slate */
+$paper-bg: #f0f6f8;      /* Light Powder Blue (The "Marine" feel) */
+$text-main: #263238;     /* Dark Slate (High contrast against blue) */
+$accent-color: #006d77;  /* Deep Teal (Microbial mats/Deep water) */
+
+$font-main: "Charter", Georgia, serif;
+
+
+/*-- scss:rules --*/
+
+/* =========================================================
+   NAVBAR → PAGE SEPARATOR (QUARTO SAFE)
+   ========================================================= */
+
+.page-columns::before {
+  content: "";
+  display: block;
+  max-width: $site-width;
+  margin: 0 auto 2rem;
+  border-top: 1px solid rgba(0, 109, 119, 0.15);
+}
+
+
+/* ===============================
+   FIXED NAVBAR (REAL HEADER)
+   =============================== */
+   
+:root {
+  --navbar-height: 6.5rem;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3000;
+  background-color: $paper-bg !important;
+  padding: 2rem 0 1.5rem;
+  border-bottom: 1px solid rgba(0, 109, 119, 0.2);
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  text-decoration: none;
+}
+
+/* underline (hidden by default) */
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 1px;
+  background-color: $accent-color;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+/* show underline on hover */
+.navbar-nav .nav-link:hover::after {
+  opacity: 1;
+}
+
+/* =========================================================
+   INTRO SECTION
+   ========================================================= */
+
+/* --- Intro Section Layout --- */
+.intro {
+  display: flex;
+  align-items: center; 
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 0.4rem; 
+}
+
+.intro img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(0, 109, 119, 0.2);
+}
+
+/* --- Social Icons Row --- */
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;            
+  align-items: center;
+}
+
+.social-icon {
+  line-height: 0;
+  border-bottom: none !important;
+  transition: transform 0.2s ease;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: $accent-color;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+  opacity: 0.8;
+}
+
+/* Ensure title doesn't have extra spacing */
+main h1, main h2 {
+  font-size: 1.25rem;
+  margin: 0 !important;
+  border-bottom: none !important;
+}
+
+/* =========================================================
+   BLOG PAGE — MODERN ACADEMIC LIST
+   ========================================================= */
+
+.quarto-title-block h1 {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: $accent-color;
+}
+
+.quarto-listing {
+  margin-top: 2.5rem;
+}
+
+.quarto-listing .quarto-listing-item {
+  padding: 1.6rem 0;
+  border-bottom: 1px solid rgba(0, 109, 119, 0.1);
+}
+
+.quarto-listing .quarto-listing-item:last-child {
+  border-bottom: none;
+}
+
+.quarto-listing .listing-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  font-style: italic;
+}
+
+.quarto-listing .listing-title a {
+  color: $text-main;
+  border-bottom: none;
+}
+
+.quarto-listing .listing-title a:hover {
+  color: $accent-color;
+}
+
+.quarto-listing .listing-date {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(38, 50, 56, 0.6); 
+  margin-bottom: 0.6rem;
+}
+
+.quarto-listing .listing-description {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(38, 50, 56, 0.9);
+  max-width: 36rem;
+}
+
+.quarto-listing .listing-icon {
+  display: none;
+}
+
+.quarto-listing {
+  max-width: 40rem;
+}
+
+/* ================= INTRO HEADING ================= */
+
+main h1, main h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  color: $text-main;
+}
+
+main h1, main h2::after,
+main h1, main h2 {
+  border-bottom: none !important;
+}
+
+main h1, main h2 {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* =========================================================
+   GLOBAL RESET
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $paper-bg;
+  color: $text-main;
+  font-family: $font-main;
+}
+
+main.content {
+  padding: 0;
+}
+
+
+/* ================= NAVBAR — FORCE TRUE CENTER ================= */
+
+/* Kill Quarto’s left/right slots */
+.navbar .navbar-brand,
+.navbar .navbar-nav {
+  float: none !important;
+}
+
+/* Rebuild navbar as centered inline header */
+.navbar .container-fluid {
+  max-width: $site-width;
+  margin: 0 auto;
+  padding-left: $side-padding;
+  padding-right: $side-padding;
+
+  display: block !important;
+  text-align: center;
+}
+
+/* Brand */
+.navbar-brand {
+  display: inline-block;
+  font-family: $font-main;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: $text-main !important;
+}
+
+/* Divider */
+.navbar-brand::after {
+  content: " | ";
+  margin: 0 1.2rem;
+  color: rgba(0, 109, 119, 0.4);
+}
+
+/* Nav */
+.navbar-nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav .nav-item {
+  display: inline-block;
+  margin: 0 0.7rem;
+}
+
+.navbar-nav .nav-link {
+  padding: 0 !important;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: $accent-color !important;
+  border: none;
+}
+
+.navbar-toggler,
+.navbar-search,
+.aa-DetachedSearchButton {
+  display: none !important;
+}
+
+
+/* =========================================================
+   INTRO BLOCK
+   ========================================================= */
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.4rem;
+}
+
+.intro img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(0, 109, 119, 0.2);
+}
+
+/* =========================================================
+   TEXT
+   ========================================================= */
+
+main p {
+  font-size: 0.93rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+  color: $text-main;
+}
+
+/* 🔑 BOLD TEXT COLOR UPDATE */
+strong, b {
+  color: $accent-color;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+  color: $accent-color;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 109, 119, 0.3);
+}
+
+.navbar a {
+  border-bottom: none;
+}
+
+
+/* =========================================================
+   HIDE UNUSED ELEMENTS
+   ========================================================= */
+
+a.anchorjs-link,
+header#title-block-header {
+  display: none !important;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .navbar .container-fluid {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+  .navbar-nav::before {
+    display: none;
+  }
+}
+
+/* ===============================
+   INDEX ICON ROW (SVG UPDATE)
+   =============================== */
+
+.icon-grid {
+  display: grid;
+  justify-items: center;
+  gap: 0rem;           
+  margin: 0 auto 2rem auto;
+  max-width: $site-width;
+
+  .icon-group {
+    display: flex;      
+    justify-content: center;
+    gap: 1.2rem;        
+  }
+
+  /* 🔑 THIS IS THE NEW PART FOR SVG ICONS */
+  .icon-group .story-icon {
+    width: 48px;
+    height: 48px;
+    color: $accent-color; /* Automatically teal */
+    transition: transform 0.2s ease, opacity 0.2s;
+    opacity: 0.85;
+    
+    &:hover {
+      transform: scale(1.15);
+      opacity: 1;
+      color: #004d55;
+    }
+  }
+
+  .icon-caption {
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    color: rgba(38, 50, 56, 0.7);
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.page-columns {
+  padding-top: var(--navbar-height) !important;
+  max-width: $site-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $side-padding;
+  padding-right: $side-padding;
+}
+
+/* ... existing code ... */
+
+/* =========================================================
+   MOBILE & RESPONSIVE FIXES
+   ========================================================= */
+
+/* Make the Intro section stack vertically on mobile */
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column !important;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .intro-text {
+    align-items: center !important; /* Centers the social icons */
+  }
+  
+  /* Adjust the "Hello" text size slightly for mobile */
+  .intro-text h2 {
+    font-size: 1.5rem; 
+  }
+}
+
+/* Responsive Process Flow (The Icons at the bottom) */
+/* Responsive Process Flow (The Icons at the bottom) */
+/* Responsive Process Flow (The Icons at the bottom) */
+.process-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 0; /* No gap between flex items */
+  margin-top: 0rem;
+}
+
+.process-flow img {
+  width: 150px;
+  max-width: 20vw; 
+  height: auto;
+  margin: 0; 
+}
+
+.process-flow span.arrow {
+  font-size: 28px;
+  /* NEGATIVE MARGIN: This pulls the images on left and right closer to the arrow */
+  margin: 0 -1.5rem; 
+  color: $accent-color;
+  line-height: 1;
+  position: relative;
+  z-index: 2; /* Ensures arrow stays on top if they overlap slightly */
+}
+
+/* On very small screens, maybe hide arrows or rotate them, 
+   but wrapping is usually enough. */

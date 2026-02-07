@@ -427,3 +427,59 @@ header#title-block-header {
   padding-left: $side-padding;
   padding-right: $side-padding;
 }
+
+/* ... existing code ... */
+
+/* =========================================================
+   MOBILE & RESPONSIVE FIXES
+   ========================================================= */
+
+/* Make the Intro section stack vertically on mobile */
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column !important;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .intro-text {
+    align-items: center !important; /* Centers the social icons */
+  }
+  
+  /* Adjust the "Hello" text size slightly for mobile */
+  .intro-text h2 {
+    font-size: 1.5rem; 
+  }
+}
+
+/* Responsive Process Flow (The Icons at the bottom) */
+/* Responsive Process Flow (The Icons at the bottom) */
+/* Responsive Process Flow (The Icons at the bottom) */
+.process-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 0; /* No gap between flex items */
+  margin-top: 0rem;
+}
+
+.process-flow img {
+  width: 150px;
+  max-width: 20vw; 
+  height: auto;
+  margin: 0; 
+}
+
+.process-flow span.arrow {
+  font-size: 28px;
+  /* NEGATIVE MARGIN: This pulls the images on left and right closer to the arrow */
+  margin: 0 -1.5rem; 
+  color: $accent-color;
+  line-height: 1;
+  position: relative;
+  z-index: 2; /* Ensures arrow stays on top if they overlap slightly */
+}
+
+/* On very small screens, maybe hide arrows or rotate them, 
+   but wrapping is usually enough. */
