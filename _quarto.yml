@@ -18,8 +18,8 @@ website:
     right:
       - text: "Blog"
         href: posts.qmd
-      - text: "CV"
-        href: CV_BedirhanAvdancı.pdf
+#      - text: "CV"
+#        href: CV_BedirhanAvdancı.pdf
       - text: "Contact"
         href: contact.qmd
 
