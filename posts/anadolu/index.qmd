@@ -1,11 +1,7 @@
 ---
 title: "Aşağıdan, Yukarıdan Yolun Sonu Görünüyor!"
 description: "Anadolu'ya Veda"
-image: "anadolu.png"
-open-graph:
-  image: "anadolu.png"
-twitter-card:
-  image: "anadolu.png"
+image: "https://bedirhanavdanci.github.io/posts/anadolu/anadolu.png"
 author:
   - name: Bedirhan Avdancı
 date: 2026-05-13
@@ -16,6 +12,13 @@ draft: false
 format:
   html:
     css: custom.css
+
+open-graph:
+  image: "https://bedirhanavdanci.github.io/posts/anadolu/anadolu.png"
+
+twitter-card:
+  image: "https://bedirhanavdanci.github.io/posts/anadolu/anadolu.png"
+  card-style: summary_large_image
 ---
 # Aşağıdan, Yukarıdan Yolun Sonu Görünüyor
 
