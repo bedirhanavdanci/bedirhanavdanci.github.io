@@ -494,3 +494,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
   text-align: justify;
 }
+
+/* Sadece mobil cihazlar için (992px altı) */
+@media (max-width: 991.98px) {
+  #title-block-header {
+    margin-top: 60px !important; /* Navbar yüksekliğine göre bu değeri artırabilirsin */
+  }
+  
+  .quarto-title-block {
+    padding-top: 50px !important;
+  }
+}
