@@ -11,7 +11,7 @@ main.content {
 
 ```{=html}
 <div class="intro">
-  <img src="bedirhan.jpg" alt="Bedirhan Avdancı">
+  <img src="bedirhan.png" alt="Bedirhan Avdancı">
   <div class="intro-text">
     <h2 style="color: #006d77;">Hello, I’m Bedirhan Avdancı!</h2>
     <div class="social-links">
