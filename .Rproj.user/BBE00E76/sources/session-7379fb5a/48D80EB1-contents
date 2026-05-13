@@ -20,6 +20,8 @@ twitter-card:
   image: "https://bedirhanavdanci.github.io/posts/anadolu/anadolu.png"
   card-style: summary_large_image
 ---
+<div class="d-block d-lg-none" style="height: 50px;"></div>
+
 # Aşağıdan, Yukarıdan Yolun Sonu Görünüyor
 
 <span style="display: block; text-align: center; margin: 0 auto; font-style: italic;">
