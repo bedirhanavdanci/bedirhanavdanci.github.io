@@ -2,6 +2,10 @@
 title: "Aşağıdan, Yukarıdan Yolun Sonu Görünüyor!"
 description: "Anadolu'ya Veda"
 image: "anadolu.png"
+open-graph:
+  image: "anadolu.png"
+twitter-card:
+  image: "anadolu.png"
 author:
   - name: Bedirhan Avdancı
 date: 2026-05-13
