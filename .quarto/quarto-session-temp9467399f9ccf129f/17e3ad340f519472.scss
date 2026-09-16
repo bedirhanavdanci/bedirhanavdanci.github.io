@@ -1042,11 +1042,12 @@ $theme-name: null !default;
 
 /* ---------- Palette ---------- */
 
-$paper-bg: #F2F5F7;
-$text-main: #252A2D;
-$text-muted: #687176;
-$accent-color: #3D6670;
-$border-color: #DCE3E7;
+$paper-bg: #F3F6F8;
+$text-main: #252C33;
+$text-muted: #687681;
+$accent-color: #416B82;
+$accent-dark: #294E63;
+$border-color: #D8E1E7;
 
 
 
@@ -12904,7 +12905,7 @@ a:hover {
 
 .navbar {
   background-color: $paper-bg !important;
-  border-bottom: 1px solid #D9E2E0;
+  border-bottom: 1px solid $border-color;
   box-shadow: none !important;
   padding-top: 0.85rem;
   padding-bottom: 0.85rem;
@@ -12919,7 +12920,7 @@ a:hover {
 /* Site name */
 .navbar-brand {
   display: block !important;
-  color: #3A5F5B !important;
+  color: $accent-dark !important;
   font-family: "Charter", Georgia, serif;
   font-size: 1.05rem;
   font-weight: 500;
@@ -12937,7 +12938,7 @@ a:hover {
 }
 
 .navbar-nav .nav-link {
-  color: #3A5F5B !important;
+  color: $accent-dark !important;
   font-family: "Charter", Georgia, serif;
   font-size: 0.95rem;
   font-weight: 500;
@@ -12949,8 +12950,9 @@ a:hover {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: #1F3D3A !important;
+  color: #183B50 !important;
 }
+
 
 /* ---------- Homepage container ---------- */
 
@@ -13015,12 +13017,12 @@ a:hover {
 }
 
 .home-intro .institution a {
-  color: #0066CC !important;
+  color: #1769A3 !important;
   text-decoration: none !important;
 }
 
 .home-intro .institution a:hover {
-  color: #004C99 !important;
+  color: #0D4F7C !important;
   text-decoration: underline !important;
 }
 
@@ -13095,6 +13097,38 @@ p {
 }
 
 
+ /* ---------- Footer ---------- */
+
+#quarto-footer,
+.nav-footer,
+.page-footer {
+  background: $paper-bg !important;
+  background-color: $paper-bg !important;
+  color: $text-muted !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#quarto-footer .container,
+#quarto-footer .container-fluid,
+.nav-footer .container,
+.nav-footer .container-fluid {
+  background: $paper-bg !important;
+}
+
+#quarto-footer p,
+#quarto-footer a,
+.nav-footer p,
+.nav-footer a {
+  color: $text-muted !important;
+}
+
+#quarto-footer a:hover,
+.nav-footer a:hover {
+  color: $accent-color !important;
+}
+
+
 /* ---------- Remove old process-flow graphics ---------- */
 
 .process-flow,
@@ -13146,6 +13180,7 @@ p {
     margin-top: 1.7rem;
   }
 }
+
 
 /* ---------- Blog page ---------- */
 
@@ -13313,6 +13348,7 @@ p {
 --quarto-scss-export-paper-bg: #{$paper-bg};
 --quarto-scss-export-text-main: #{$text-main};
 --quarto-scss-export-accent-color: #{$accent-color};
+--quarto-scss-export-accent-dark: #{$accent-dark};
 --quarto-scss-export-white: #{$white};
 --quarto-scss-export-gray-100: #{$gray-100};
 --quarto-scss-export-gray-200: #{$gray-200};
