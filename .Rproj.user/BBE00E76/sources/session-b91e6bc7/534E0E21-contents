@@ -1,0 +1,54 @@
+project:
+  type: website
+
+website:
+  title: "Bedirhan Avdancı"
+  site-url: "https://bedirhanavdanci.github.io"
+
+  navbar:
+    right:
+      - text: Blog
+        href: posts.qmd
+      - text: CV
+        href: CV_BedirhanAvdanci.pdf
+      - text: Contact
+        href: contact.qmd
+    search: false
+    background: transparent
+    foreground: "#252525"
+
+  page-footer:
+    center: |
+      © 2026 Bedirhan Avdancı
+
+  description: "Bedirhan Avdancı — MSc student in Marine Microbiology at the Max Planck Institute for Marine Microbiology."
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    mainfont: Charter
+    toc: false
+    smooth-scroll: true
+    anchor-sections: false
+    code-fold: true
+    code-tools: false
+
+metadata-files:
+  - _metadata.yml
+
+execute:
+  freeze: auto
+
+editor: visual
+
+schema:
+  type: Person
+  name: "Bedirhan Avdancı"
+  url: "https://bedirhanavdanci.github.io"
+  sameAs:
+    - "https://orcid.org/"
+    - "https://scholar.google.com/"
+    - "https://x.com/"
+    - "https://www.linkedin.com/"
