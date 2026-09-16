@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - google6c15a515e715b4c1.html
 
 website:
   title: "Bedirhan Avdancı"
