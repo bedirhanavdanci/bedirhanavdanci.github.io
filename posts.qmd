@@ -1,10 +1,12 @@
 ---
 title: "Blog"
 listing:
-  type: default
+  type: grid
   sort: date desc
   categories: false
-  page-size: 10
+  page-size: 12
   fields: [image, date, title, description]
   contents: posts
+  image-height: "150px"
+  grid-columns: 3
 ---

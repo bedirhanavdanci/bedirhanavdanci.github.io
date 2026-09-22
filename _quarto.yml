@@ -5,13 +5,15 @@ project:
     - google6c15a515e715b4c1.html
 
 website:
-  title: "Bedirhan Avdancı"
+  title: "Bedirhan Avdanci"
   site-url: "https://bedirhanavdanci.github.io"
 
   navbar:
     right:
       - text: Blog
         href: posts.qmd
+      - text: Publications
+        href: publications.qmd
       - text: CV
         href: CV_BedirhanAvdanci.pdf
       - text: Contact

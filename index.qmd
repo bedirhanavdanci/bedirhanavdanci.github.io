@@ -5,7 +5,7 @@ page-title: false
 
 <div class="home-intro">
 
-<img src="bedirhan.png" alt="Bedirhan Avdancı">
+<img src="bedirhan.png" alt="Bedirhan Avdanci">
 
 <h1>Bedirhan Avdanci</h1>
 

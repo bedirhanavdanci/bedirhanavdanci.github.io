@@ -1,0 +1,17 @@
+---
+title: "Publications"
+---
+
+```{=html}
+<div class="publication-wrapper">
+<div class="publication-grid">
+
+<a href="http://dx.doi.org/10.15666/aeer/2401_9891002" class="publication-card">
+<h3>The Effect of Elevation on Forest Structure and Tree Community Composition in Trojan FIR Forests in Kazdaglari (NW Anatolia, Türkiye)</h3>
+<p>N. Usta, I. Tufekcioglu, <strong>B. Avdanci</strong>, C. Tavsanoglu</p>
+<p><em>Applied Ecology and Environmental Research</em> · 2026</p>
+</a>
+
+</div>
+</div>
+```
