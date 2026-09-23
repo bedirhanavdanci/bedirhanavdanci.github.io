@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Contact"
 page-title: false
 format:
   html:
@@ -7,8 +7,6 @@ format:
 ---
 
 ::: {.contact-page}
-
-# Contact
 
 You can reach me via email at:
 

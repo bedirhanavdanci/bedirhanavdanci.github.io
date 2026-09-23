@@ -373,8 +373,8 @@ body:has(.quarto-listing) #title-block-header {
   display: block !important;
   max-width: 1150px !important;
   width: 74vw !important;
-  margin: 4rem auto 2.5rem auto !important;
-  padding: 0 !important;
+  margin: 0 auto 2.5rem auto !important;
+  padding: 4rem 0 0 0 !important;
   box-sizing: border-box;
   text-align: center;
 }
@@ -773,19 +773,39 @@ body:has(.publication-grid) #title-block-header {
    CONTACT PAGE
    ========================================================= */
 
-.contact-page {
-  max-width: 700px;
-  margin: 4rem auto;
+body:has(.contact-page) .page-columns {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body:has(.contact-page) #quarto-content,
+body:has(.contact-page) main.content {
+  display: block !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ---------- Contact title (same mechanism as blog/publications) ---------- */
+
+body:has(.contact-page) #title-block-header {
+  display: block !important;
+  max-width: 700px !important;
+  width: 100% !important;
+  margin: 0 auto 2.5rem auto !important;
+  padding: 4rem 0 0 0 !important;
+  box-sizing: border-box;
   text-align: center;
 }
 
-.contact-page h1 {
-  color: $text-main;
-  font-family: "Charter", Georgia, serif;
-  font-size: 2.5rem;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-  margin-bottom: 1.5rem;
+.contact-page {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .contact-page p {
@@ -815,13 +835,13 @@ body:has(.publication-grid) #title-block-header {
 
 @media (max-width: 768px) {
 
-  .contact-page {
-    margin: 3rem auto;
-    padding: 0 1.25rem;
+  body:has(.contact-page) #title-block-header {
+    padding-top: 3rem !important;
+    margin-bottom: 2rem !important;
   }
 
-  .contact-page h1 {
-    font-size: 2rem;
+  .contact-page {
+    padding: 0 1.25rem;
   }
 
   .contact-photo {
